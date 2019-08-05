@@ -3,12 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+/**IMPORTANTO MÓDULOS*/
+
+import { ServiceModule } from './services/service.module';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
